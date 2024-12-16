@@ -27,5 +27,15 @@ namespace RestFull.Controllers
             }
             return BadRequest();
         }
+
+        [HttpPost("feladat13")]
+        public async Task<ActionResult<string>> AddNewBook(string id, Book book)
+        {
+            var result = await bookInterface.AddNewBook(id, book);
+            if (result.Contains("sikeres"))
+            {
+                return Ok(result);
+            }return BadRequest();
+        }
     }
 }

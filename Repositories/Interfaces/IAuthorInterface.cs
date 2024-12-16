@@ -7,5 +7,9 @@ namespace RestFull.Repositories.Interfaces
     {
         Task<ActionResult<Author>> GetByName(string name);
         Task<string> NumOfAuth();
+        Task<List<Author>> GetAll();
+        Task<string> AddNewAuthor(Author author);
+        Task<Author> Put(int id, Author author);
+        Task<string> Delete(int id);
     }
 }

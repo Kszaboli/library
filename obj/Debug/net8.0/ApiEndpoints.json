@@ -1,6 +1,16 @@
 [
   {
     "ContainingType": "RestFull.Controllers.AuthorController",
+    "Method": "NumOfAuth",
+    "RelativePath": "api/authors/feladat12",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RestFull.Controllers.AuthorController",
     "Method": "Get",
     "RelativePath": "api/authors/feladat9",
     "HttpMethod": "GET",
@@ -19,6 +29,16 @@
     "ContainingType": "RestFull.Controllers.BookController",
     "Method": "GetAllBooks",
     "RelativePath": "api/book/feladat10",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RestFull.Controllers.CategoryController",
+    "Method": "GetAllWithBooks",
+    "RelativePath": "api/category/Feladat11",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,

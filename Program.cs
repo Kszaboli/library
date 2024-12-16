@@ -14,6 +14,7 @@ namespace RestFull
             builder.Services.AddDbContext<LibrarydbContext>();
             builder.Services.AddScoped<IAuthorInterface, AuthorService>();
             builder.Services.AddScoped<IBookInterface, BookService>();
+            builder.Services.AddScoped<ICategoryInterface, CategoryService>();
 
             // Add services to the container.
 

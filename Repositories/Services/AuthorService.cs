@@ -20,5 +20,10 @@ namespace RestFull.Repositories.Services
                 .FirstOrDefaultAsync(auth=>auth.AuthorName==name);
             return author;
         }
+        public async Task<string> NumOfAuth()
+        {
+            var num = await _context.Authors.CountAsync();
+            return num.ToString();
+        }
     }
 }

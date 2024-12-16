@@ -25,5 +25,15 @@ namespace RestFull.Controllers
             }
             return NotFound();
         }
+
+        [HttpGet("feladat12")]
+        public async Task<ActionResult> NumOfAuth()
+        {
+            var num = await authorInterface.NumOfAuth();
+            if (num != null)
+            {
+                return Ok(num);
+            }return BadRequest();
+        }
     }
 }

@@ -124,3 +124,4 @@ C:\Users\Tanulo\Desktop\Új mappa (2)\RestFull\obj\Debug\net8.0\refint\RestFull.
 C:\Users\Tanulo\Desktop\Új mappa (2)\RestFull\obj\Debug\net8.0\RestFull.pdb
 C:\Users\Tanulo\Desktop\Új mappa (2)\RestFull\obj\Debug\net8.0\RestFull.genruntimeconfig.cache
 C:\Users\Tanulo\Desktop\Új mappa (2)\RestFull\obj\Debug\net8.0\ref\RestFull.dll
+C:\Users\Tanulo\Desktop\Új mappa (2)\RestFull\obj\Debug\net8.0\RestFull.sourcelink.json

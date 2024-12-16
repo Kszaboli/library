@@ -1,4 +1,8 @@
 
+using RestFull.Models;
+using RestFull.Repositories.Interfaces;
+using RestFull.Repositories.Services;
+
 namespace RestFull
 {
     public class Program
@@ -6,6 +10,10 @@ namespace RestFull
         public static void Main(string[] args)
         {
             var builder = WebApplication.CreateBuilder(args);
+
+            builder.Services.AddDbContext<LibrarydbContext>();
+            builder.Services.AddScoped<IAuthorInterface, AuthorService>();
+            builder.Services.AddScoped<IBookInterface, BookService>();
 
             // Add services to the container.
 
